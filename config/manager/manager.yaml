@@ -29,7 +29,7 @@ spec:
         - /manager
         args:
         - --leader-elect
-        image: controller:latest
+        image: ghcr.io/phoenix24/hello-operator/controller:latest
         name: manager
         securityContext:
           allowPrivilegeEscalation: false
